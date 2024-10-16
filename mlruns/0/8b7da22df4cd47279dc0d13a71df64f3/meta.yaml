@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jolly/Desktop/last_project/mlruns/0/8b7da22df4cd47279dc0d13a71df64f3/artifacts
+end_time: 1729077101720
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b7da22df4cd47279dc0d13a71df64f3
+run_name: Random Forest Regressor
+run_uuid: 8b7da22df4cd47279dc0d13a71df64f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729077099536
+status: 3
+tags: []
+user_id: jolly

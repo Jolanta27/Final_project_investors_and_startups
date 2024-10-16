@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jolly/Desktop/last_project/mlruns/0/ab6d9083315d4b35bcadb80fe1a1f535/artifacts
+end_time: 1729077106637
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab6d9083315d4b35bcadb80fe1a1f535
+run_name: MLP Regressor
+run_uuid: ab6d9083315d4b35bcadb80fe1a1f535
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729077104504
+status: 3
+tags: []
+user_id: jolly

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jolly/Desktop/last_project/mlruns/0/5b4cfe5f0b1c47f7a3346a54cd47ce7c/artifacts
+end_time: 1729077109120
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b4cfe5f0b1c47f7a3346a54cd47ce7c
+run_name: Gradient Boosting Regressor
+run_uuid: 5b4cfe5f0b1c47f7a3346a54cd47ce7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729077106814
+status: 3
+tags: []
+user_id: jolly

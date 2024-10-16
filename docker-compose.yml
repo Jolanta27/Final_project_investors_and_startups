@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mlflow:
+    image: mlflow:latest
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlflow/mlruns
+
+  app:
+    build: .
+    command: python train.py
+    volumes:
+      - .:/app
+    depends_on:
+      - mlflow

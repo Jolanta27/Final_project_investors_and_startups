@@ -1,0 +1,365 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.16.2
+model_size_bytes: 18054
+model_uuid: 94de90c28dec4c6ca2060ae7ee9cdc7b
+run_id: d385c0875d804336b5fd62c69207d84b
+signature:
+  inputs: '[{"type": "double", "name": "total_eq_funding", "required": true}, {"type":
+    "double", "name": "country_Bahrain", "required": true}, {"type": "double", "name":
+    "country_Brazil", "required": true}, {"type": "double", "name": "country_Canada",
+    "required": true}, {"type": "double", "name": "country_China", "required": true},
+    {"type": "double", "name": "country_Colombia", "required": true}, {"type": "double",
+    "name": "country_Estonia", "required": true}, {"type": "double", "name": "country_Finland",
+    "required": true}, {"type": "double", "name": "country_France", "required": true},
+    {"type": "double", "name": "country_Germany", "required": true}, {"type": "double",
+    "name": "country_Hong Kong", "required": true}, {"type": "double", "name": "country_Hungary",
+    "required": true}, {"type": "double", "name": "country_India", "required": true},
+    {"type": "double", "name": "country_Indonesia", "required": true}, {"type": "double",
+    "name": "country_Isle of Man", "required": true}, {"type": "double", "name": "country_Israel",
+    "required": true}, {"type": "double", "name": "country_Japan", "required": true},
+    {"type": "double", "name": "country_Kenya", "required": true}, {"type": "double",
+    "name": "country_Kuwait", "required": true}, {"type": "double", "name": "country_Malaysia",
+    "required": true}, {"type": "double", "name": "country_Nigeria", "required": true},
+    {"type": "double", "name": "country_Norway", "required": true}, {"type": "double",
+    "name": "country_Romania", "required": true}, {"type": "double", "name": "country_Singapore",
+    "required": true}, {"type": "double", "name": "country_South Africa", "required":
+    true}, {"type": "double", "name": "country_South Korea", "required": true}, {"type":
+    "double", "name": "country_Spain", "required": true}, {"type": "double", "name":
+    "country_Sweden", "required": true}, {"type": "double", "name": "country_Switzerland",
+    "required": true}, {"type": "double", "name": "country_The Netherlands", "required":
+    true}, {"type": "double", "name": "country_United Kingdom", "required": true},
+    {"type": "double", "name": "country_United States", "required": true}, {"type":
+    "double", "name": "country_Vietnam", "required": true}, {"type": "double", "name":
+    "lead_investors_5AM Ventures, Gilde Healthcare", "required": true}, {"type": "double",
+    "name": "lead_investors_5Y Capital, Meituan", "required": true}, {"type": "double",
+    "name": "lead_investors_8VC", "required": true}, {"type": "double", "name": "lead_investors_8VC,
+    Mubadala Capital Ventures", "required": true}, {"type": "double", "name": "lead_investors_8VC,
+    NewRoad Capital Partners", "required": true}, {"type": "double", "name": "lead_investors_A91
+    Partners", "required": true}, {"type": "double", "name": "lead_investors_ACME
+    Capital, TPG Growth", "required": true}, {"type": "double", "name": "lead_investors_ADM
+    Ventures", "required": true}, {"type": "double", "name": "lead_investors_Abstract
+    Ventures, Fasanara Capital", "required": true}, {"type": "double", "name": "lead_investors_Abu
+    Dhabi Investment Office (ADIO)", "required": true}, {"type": "double", "name":
+    "lead_investors_Accel", "required": true}, {"type": "double", "name": "lead_investors_Accel,
+    TCV", "required": true}, {"type": "double", "name": "lead_investors_Access Industries",
+    "required": true}, {"type": "double", "name": "lead_investors_Addition", "required":
+    true}, {"type": "double", "name": "lead_investors_Advent International", "required":
+    true}, {"type": "double", "name": "lead_investors_Advent International, Brighton
+    Park Capital", "required": true}, {"type": "double", "name": "lead_investors_Affinity
+    Equity Partners", "required": true}, {"type": "double", "name": "lead_investors_Agla\u00e9
+    Ventures, Balderton Capital", "required": true}, {"type": "double", "name": "lead_investors_Alibaba
+    Group, Foxconn Technology Group", "required": true}, {"type": "double", "name":
+    "lead_investors_Allen & Company, L Catterton", "required": true}, {"type": "double",
+    "name": "lead_investors_Alpha Wave Global", "required": true}, {"type": "double",
+    "name": "lead_investors_Alpha Wave Ventures, Tiger Global Management", "required":
+    true}, {"type": "double", "name": "lead_investors_Alteria Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Altimeter Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Alven, SaaStr Fund", "required":
+    true}, {"type": "double", "name": "lead_investors_Amansa Capital, Jungle Ventures",
+    "required": true}, {"type": "double", "name": "lead_investors_Andreessen Horowitz",
+    "required": true}, {"type": "double", "name": "lead_investors_Andreessen Horowitz,
+    Kleiner Perkins", "required": true}, {"type": "double", "name": "lead_investors_Andreessen
+    Horowitz, Richmond Global Ventures", "required": true}, {"type": "double", "name":
+    "lead_investors_Antler", "required": true}, {"type": "double", "name": "lead_investors_Apax
+    Digital", "required": true}, {"type": "double", "name": "lead_investors_Apax Digital,
+    New Enterprise Associates", "required": true}, {"type": "double", "name": "lead_investors_Astanor
+    Ventures, HH-CTBC Partnership", "required": true}, {"type": "double", "name":
+    "lead_investors_Avenir, Tiger Global Management", "required": true}, {"type":
+    "double", "name": "lead_investors_Azimut Holding", "required": true}, {"type":
+    "double", "name": "lead_investors_B Capital", "required": true}, {"type": "double",
+    "name": "lead_investors_BPEA EQT", "required": true}, {"type": "double", "name":
+    "lead_investors_BRV Capital Management", "required": true}, {"type": "double",
+    "name": "lead_investors_Bain Capital Tech Opportunities", "required": true}, {"type":
+    "double", "name": "lead_investors_Baixing Bairong", "required": true}, {"type":
+    "double", "name": "lead_investors_Battery Ventures, Norwest Venture Partners",
+    "required": true}, {"type": "double", "name": "lead_investors_Beams FinTech Fund",
+    "required": true}, {"type": "double", "name": "lead_investors_Beams FinTech Fund,
+    Eurazeo", "required": true}, {"type": "double", "name": "lead_investors_Bell Ventures",
+    "required": true}, {"type": "double", "name": "lead_investors_Benchmark", "required":
+    true}, {"type": "double", "name": "lead_investors_Bessemer Venture Partners",
+    "required": true}, {"type": "double", "name": "lead_investors_Bezos Expeditions,
+    Ribbit Capital", "required": true}, {"type": "double", "name": "lead_investors_Blackstone
+    Accelerates Growth", "required": true}, {"type": "double", "name": "lead_investors_Blackstone
+    Group", "required": true}, {"type": "double", "name": "lead_investors_Bloomberg
+    Beta, General Catalyst", "required": true}, {"type": "double", "name": "lead_investors_Blue
+    Earth Capital, Norrsken22", "required": true}, {"type": "double", "name": "lead_investors_Bond,
+    Index Ventures", "required": true}, {"type": "double", "name": "lead_investors_Boubyan
+    Petrochemical Company", "required": true}, {"type": "double", "name": "lead_investors_Bregal
+    Milestone, Level Equity Management", "required": true}, {"type": "double", "name":
+    "lead_investors_Brighton Park Capital", "required": true}, {"type": "double",
+    "name": "lead_investors_British Patient Capital", "required": true}, {"type":
+    "double", "name": "lead_investors_Brookfield Growth", "required": true}, {"type":
+    "double", "name": "lead_investors_Buckley Ventures", "required": true}, {"type":
+    "double", "name": "lead_investors_CCB International", "required": true}, {"type":
+    "double", "name": "lead_investors_CICC", "required": true}, {"type": "double",
+    "name": "lead_investors_CPMG, L2 Ventures", "required": true}, {"type": "double",
+    "name": "lead_investors_CRV, Highland Europe", "required": true}, {"type": "double",
+    "name": "lead_investors_CRV, Insight Partners", "required": true}, {"type": "double",
+    "name": "lead_investors_CTC Capital", "required": true}, {"type": "double", "name":
+    "lead_investors_CVCC Zhongshi Capital", "required": true}, {"type": "double",
+    "name": "lead_investors_Caisse de Depot et Placement du Quebec", "required": true},
+    {"type": "double", "name": "lead_investors_Canapi Ventures", "required": true},
+    {"type": "double", "name": "lead_investors_Capital18", "required": true}, {"type":
+    "double", "name": "lead_investors_Carrefour", "required": true}, {"type": "double",
+    "name": "lead_investors_Caspian VC Partners, DP World Group", "required": true},
+    {"type": "double", "name": "lead_investors_Castrol India", "required": true},
+    {"type": "double", "name": "lead_investors_Catalyst, M&G Investments", "required":
+    true}, {"type": "double", "name": "lead_investors_Celesta Capital, Mayfield Fund",
+    "required": true}, {"type": "double", "name": "lead_investors_Centerbridge Partners",
+    "required": true}, {"type": "double", "name": "lead_investors_Chelsea Vanguard
+    Fund, Regal Planet Holdings Limited", "required": true}, {"type": "double", "name":
+    "lead_investors_Chieftain Capital Management", "required": true}, {"type": "double",
+    "name": "lead_investors_China Fellow Partners", "required": true}, {"type": "double",
+    "name": "lead_investors_Cisco Investments", "required": true}, {"type": "double",
+    "name": "lead_investors_Citi Ventures", "required": true}, {"type": "double",
+    "name": "lead_investors_Claure Group", "required": true}, {"type": "double", "name":
+    "lead_investors_Coatue", "required": true}, {"type": "double", "name": "lead_investors_Cobalt
+    Capital, Dragoneer Investment Group", "required": true}, {"type": "double", "name":
+    "lead_investors_Comcast Ventures, Goldman Sachs Investment Partners", "required":
+    true}, {"type": "double", "name": "lead_investors_Convivialite Ventures", "required":
+    true}, {"type": "double", "name": "lead_investors_Counterpoint Global, Liberty
+    Media", "required": true}, {"type": "double", "name": "lead_investors_Crescera
+    Investimentos (f/k/a Bozano Investimentos), Vulcan Capital", "required": true},
+    {"type": "double", "name": "lead_investors_D1 Capital Partners", "required": true},
+    {"type": "double", "name": "lead_investors_DFJ Growth", "required": true}, {"type":
+    "double", "name": "lead_investors_DST Global", "required": true}, {"type": "double",
+    "name": "lead_investors_Dai-ichi Life", "required": true}, {"type": "double",
+    "name": "lead_investors_Daniel Gross, Nabeel Hyatt", "required": true}, {"type":
+    "double", "name": "lead_investors_Dawn Capital", "required": true}, {"type": "double",
+    "name": "lead_investors_Dawn Capital, Goldman Sachs", "required": true}, {"type":
+    "double", "name": "lead_investors_Declaration Partners, Kinnevik", "required":
+    true}, {"type": "double", "name": "lead_investors_Deer Park Road", "required":
+    true}, {"type": "double", "name": "lead_investors_Didi", "required": true}, {"type":
+    "double", "name": "lead_investors_Digital Turbine", "required": true}, {"type":
+    "double", "name": "lead_investors_Dragoneer Investment Group, Steadview Capital",
+    "required": true}, {"type": "double", "name": "lead_investors_Durable Capital
+    Partners", "required": true}, {"type": "double", "name": "lead_investors_Eicher
+    Motors Limited", "required": true}, {"type": "double", "name": "lead_investors_Eight
+    Roads Ventures", "required": true}, {"type": "double", "name": "lead_investors_Elad
+    Gil, Electric Capital", "required": true}, {"type": "double", "name": "lead_investors_Eldridge
+    Industries", "required": true}, {"type": "double", "name": "lead_investors_Eldridge
+    Industries, JE Dunn Construction", "required": true}, {"type": "double", "name":
+    "lead_investors_Emerson Collective, Minden", "required": true}, {"type": "double",
+    "name": "lead_investors_Everbright", "required": true}, {"type": "double", "name":
+    "lead_investors_Evolution Equity Partners", "required": true}, {"type": "double",
+    "name": "lead_investors_Evolution Financial", "required": true}, {"type": "double",
+    "name": "lead_investors_Explorer 1 Fund", "required": true}, {"type": "double",
+    "name": "lead_investors_Falcon House Partners, MDI Ventures", "required": true},
+    {"type": "double", "name": "lead_investors_Fidelity", "required": true}, {"type":
+    "double", "name": "lead_investors_Fifth Wall, Riverwood Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Fin Capital", "required": true},
+    {"type": "double", "name": "lead_investors_FootPrint Coalition", "required": true},
+    {"type": "double", "name": "lead_investors_Forest Partners, IBK Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Forrestal Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Founders Fund, US Innovative
+    Technology Fund", "required": true}, {"type": "double", "name": "lead_investors_Francisco
+    Partners", "required": true}, {"type": "double", "name": "lead_investors_Fubon
+    Financial Holdings", "required": true}, {"type": "double", "name": "lead_investors_G
+    Squared", "required": true}, {"type": "double", "name": "lead_investors_GGV Capital,
+    Tiger Global Management", "required": true}, {"type": "double", "name": "lead_investors_GIC",
+    "required": true}, {"type": "double", "name": "lead_investors_GIC, Meritech Capital
+    Partners", "required": true}, {"type": "double", "name": "lead_investors_GS Growth",
+    "required": true}, {"type": "double", "name": "lead_investors_GSV Ventures", "required":
+    true}, {"type": "double", "name": "lead_investors_Gaja Capital", "required": true},
+    {"type": "double", "name": "lead_investors_General Atlantic", "required": true},
+    {"type": "double", "name": "lead_investors_General Catalyst", "required": true},
+    {"type": "double", "name": "lead_investors_General Catalyst, Ryan Smith", "required":
+    true}, {"type": "double", "name": "lead_investors_General Motors", "required":
+    true}, {"type": "double", "name": "lead_investors_Georgian", "required": true},
+    {"type": "double", "name": "lead_investors_Gilead Sciences", "required": true},
+    {"type": "double", "name": "lead_investors_Global PayTech Ventures", "required":
+    true}, {"type": "double", "name": "lead_investors_Goldman Sachs Asset Management",
+    "required": true}, {"type": "double", "name": "lead_investors_Google", "required":
+    true}, {"type": "double", "name": "lead_investors_GreenPoint Partners, Taronga
+    Ventures", "required": true}, {"type": "double", "name": "lead_investors_Greenoaks",
+    "required": true}, {"type": "double", "name": "lead_investors_Greybrook Realty
+    Partners", "required": true}, {"type": "double", "name": "lead_investors_Greylock",
+    "required": true}, {"type": "double", "name": "lead_investors_Grok Ventures, IPGL",
+    "required": true}, {"type": "double", "name": "lead_investors_Grosvenor Food &
+    AgTech", "required": true}, {"type": "double", "name": "lead_investors_H.I.G.
+    Growth Partners", "required": true}, {"type": "double", "name": "lead_investors_HOPU
+    Investment", "required": true}, {"type": "double", "name": "lead_investors_Hanaco
+    Venture Capital", "required": true}, {"type": "double", "name": "lead_investors_Hanwha
+    Life", "required": true}, {"type": "double", "name": "lead_investors_Haun Ventures",
+    "required": true}, {"type": "double", "name": "lead_investors_Headline", "required":
+    true}, {"type": "double", "name": "lead_investors_Helios Investment Partners,
+    Taj Investment Holdings", "required": true}, {"type": "double", "name": "lead_investors_Highland
+    Europe", "required": true}, {"type": "double", "name": "lead_investors_Home &
+    Shopping", "required": true}, {"type": "double", "name": "lead_investors_ICONIQ
+    Growth", "required": true}, {"type": "double", "name": "lead_investors_IDG Capital,
+    Meituan", "required": true}, {"type": "double", "name": "lead_investors_IIFL Finance,
+    Malabar Investment Advisors", "required": true}, {"type": "double", "name": "lead_investors_IMM
+    Investment", "required": true}, {"type": "double", "name": "lead_investors_IVP",
+    "required": true}, {"type": "double", "name": "lead_investors_Ilija Batljan Invest",
+    "required": true}, {"type": "double", "name": "lead_investors_Index Ventures",
+    "required": true}, {"type": "double", "name": "lead_investors_Inno-Chip, Longzhu
+    Capital", "required": true}, {"type": "double", "name": "lead_investors_Innovation
+    Endeavors", "required": true}, {"type": "double", "name": "lead_investors_Insight
+    Partners", "required": true}, {"type": "double", "name": "lead_investors_Insight
+    Partners, Stripes", "required": true}, {"type": "double", "name": "lead_investors_Insight
+    Partners, Tiger Global Management", "required": true}, {"type": "double", "name":
+    "lead_investors_Intact Ventures", "required": true}, {"type": "double", "name":
+    "lead_investors_Intel Capital", "required": true}, {"type": "double", "name":
+    "lead_investors_Invus Opportunities", "required": true}, {"type": "double", "name":
+    "lead_investors_J.P. Morgan Growth Equity Partners", "required": true}, {"type":
+    "double", "name": "lead_investors_JP Morgan Chase", "required": true}, {"type":
+    "double", "name": "lead_investors_Janus Henderson Investors", "required": true},
+    {"type": "double", "name": "lead_investors_Jun Lei, Xiaomi", "required": true},
+    {"type": "double", "name": "lead_investors_Jungle Ventures", "required": true},
+    {"type": "double", "name": "lead_investors_KFC Ventures", "required": true}, {"type":
+    "double", "name": "lead_investors_Kinnevik", "required": true}, {"type": "double",
+    "name": "lead_investors_Kleiner Perkins, Owl Ventures", "required": true}, {"type":
+    "double", "name": "lead_investors_Kleiner Perkins, Paradigm", "required": true},
+    {"type": "double", "name": "lead_investors_Kohlberg Kravis Roberts", "required":
+    true}, {"type": "double", "name": "lead_investors_Kora", "required": true}, {"type":
+    "double", "name": "lead_investors_Korea Development Bank", "required": true},
+    {"type": "double", "name": "lead_investors_L Catterton", "required": true}, {"type":
+    "double", "name": "lead_investors_LG Technology Ventures", "required": true},
+    {"type": "double", "name": "lead_investors_LVMH", "required": true}, {"type":
+    "double", "name": "lead_investors_Lakestar, Tiger Global Management", "required":
+    true}, {"type": "double", "name": "lead_investors_Lazada Group", "required": true},
+    {"type": "double", "name": "lead_investors_Lighthouse Funds", "required": true},
+    {"type": "double", "name": "lead_investors_Lightrock", "required": true}, {"type":
+    "double", "name": "lead_investors_Lightspeed Venture Partners", "required": true},
+    {"type": "double", "name": "lead_investors_Lightspeed Venture Partners, StepStone
+    Group", "required": true}, {"type": "double", "name": "lead_investors_Linse Capital",
+    "required": true}, {"type": "double", "name": "lead_investors_Lockheed Martin
+    Ventures", "required": true}, {"type": "double", "name": "lead_investors_Lone
+    Pine Capital", "required": true}, {"type": "double", "name": "lead_investors_Lux
+    Capital", "required": true}, {"type": "double", "name": "lead_investors_M&G Investments",
+    "required": true}, {"type": "double", "name": "lead_investors_MEMG Family Office",
+    "required": true}, {"type": "double", "name": "lead_investors_MUFG Bank", "required":
+    true}, {"type": "double", "name": "lead_investors_Main Street Advisors, SC.Holdings",
+    "required": true}, {"type": "double", "name": "lead_investors_March Capital",
+    "required": true}, {"type": "double", "name": "lead_investors_Marshall Wace",
+    "required": true}, {"type": "double", "name": "lead_investors_Matrix", "required":
+    true}, {"type": "double", "name": "lead_investors_Menlo Ventures", "required":
+    true}, {"type": "double", "name": "lead_investors_Menlo Ventures, Tiger Global
+    Management", "required": true}, {"type": "double", "name": "lead_investors_Meritech
+    Capital Partners", "required": true}, {"type": "double", "name": "lead_investors_Microsoft
+    Climate Innovation Fund", "required": true}, {"type": "double", "name": "lead_investors_Mirae
+    Asset Capital", "required": true}, {"type": "double", "name": "lead_investors_Mubadala
+    Capital Ventures", "required": true}, {"type": "double", "name": "lead_investors_Multicoin
+    Capital", "required": true}, {"type": "double", "name": "lead_investors_NEAR",
+    "required": true}, {"type": "double", "name": "lead_investors_NIO", "required":
+    true}, {"type": "double", "name": "lead_investors_NVentures", "required": true},
+    {"type": "double", "name": "lead_investors_Nekkanti Sea Foods", "required": true},
+    {"type": "double", "name": "lead_investors_Next Tech Fund", "required": true},
+    {"type": "double", "name": "lead_investors_Northwell Health", "required": true},
+    {"type": "double", "name": "lead_investors_Norwest Venture Partners", "required":
+    true}, {"type": "double", "name": "lead_investors_Notable Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Novo Holdings, Vivo Capital",
+    "required": true}, {"type": "double", "name": "lead_investors_OMERS Growth Equity,
+    Thomvest Ventures", "required": true}, {"type": "double", "name": "lead_investors_One
+    Peak", "required": true}, {"type": "double", "name": "lead_investors_OpenAI",
+    "required": true}, {"type": "double", "name": "lead_investors_Owl Ventures", "required":
+    true}, {"type": "double", "name": "lead_investors_PSG Equity", "required": true},
+    {"type": "double", "name": "lead_investors_Pace Capital", "required": true}, {"type":
+    "double", "name": "lead_investors_Partners Group", "required": true}, {"type":
+    "double", "name": "lead_investors_Peak XV Partners", "required": true}, {"type":
+    "double", "name": "lead_investors_Penske Media Corporation", "required": true},
+    {"type": "double", "name": "lead_investors_Periphas Capital", "required": true},
+    {"type": "double", "name": "lead_investors_Permira", "required": true}, {"type":
+    "double", "name": "lead_investors_Polychain", "required": true}, {"type": "double",
+    "name": "lead_investors_Polychain, Qiming Venture Partners", "required": true},
+    {"type": "double", "name": "lead_investors_Porsche Ventures", "required": true},
+    {"type": "double", "name": "lead_investors_Prosperity7 Ventures", "required":
+    true}, {"type": "double", "name": "lead_investors_QJY Capital", "required": true},
+    {"type": "double", "name": "lead_investors_RedBird Capital Partners", "required":
+    true}, {"type": "double", "name": "lead_investors_Ribbit Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Rocketship.vc, Vulcan Capital",
+    "required": true}, {"type": "double", "name": "lead_investors_SEI, SEI | SEI Ventures
+    (NASDAQ: SEIC)", "required": true}, {"type": "double", "name": "lead_investors_SK
+    Materials", "required": true}, {"type": "double", "name": "lead_investors_STIC
+    Investment", "required": true}, {"type": "double", "name": "lead_investors_SVB
+    Capital", "required": true}, {"type": "double", "name": "lead_investors_Saehan
+    Startup Investment", "required": true}, {"type": "double", "name": "lead_investors_Salem
+    Investment Partners", "required": true}, {"type": "double", "name": "lead_investors_Salesforce
+    Ventures", "required": true}, {"type": "double", "name": "lead_investors_Samsung
+    Electronics", "required": true}, {"type": "double", "name": "lead_investors_Samsung
+    NEXT\u2019s Q Fund", "required": true}, {"type": "double", "name": "lead_investors_Santander
+    US", "required": true}, {"type": "double", "name": "lead_investors_Sapphire Ventures",
+    "required": true}, {"type": "double", "name": "lead_investors_Schroder Adveq",
+    "required": true}, {"type": "double", "name": "lead_investors_SenseTime", "required":
+    true}, {"type": "double", "name": "lead_investors_Sequoia Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Sequoia Capital China", "required":
+    true}, {"type": "double", "name": "lead_investors_ServiceNow", "required": true},
+    {"type": "double", "name": "lead_investors_Seven Seven Six", "required": true},
+    {"type": "double", "name": "lead_investors_ShenZhen GTJA Investment Group", "required":
+    true}, {"type": "double", "name": "lead_investors_Shenzhen Capital Group", "required":
+    true}, {"type": "double", "name": "lead_investors_Shinhan Financial Group", "required":
+    true}, {"type": "double", "name": "lead_investors_Sienna Capital, SoftBank Vision
+    Fund", "required": true}, {"type": "double", "name": "lead_investors_SignalFire",
+    "required": true}, {"type": "double", "name": "lead_investors_Silver Lake Waterman",
+    "required": true}, {"type": "double", "name": "lead_investors_Sky Lake Investment",
+    "required": true}, {"type": "double", "name": "lead_investors_Sofina", "required":
+    true}, {"type": "double", "name": "lead_investors_Sofina, Temasek Holdings", "required":
+    true}, {"type": "double", "name": "lead_investors_SoftBank Vision Fund", "required":
+    true}, {"type": "double", "name": "lead_investors_Solana Ventures, VanEck", "required":
+    true}, {"type": "double", "name": "lead_investors_Source Code Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Spark Capital", "required":
+    true}, {"type": "double", "name": "lead_investors_Stripe", "required": true},
+    {"type": "double", "name": "lead_investors_Stripes", "required": true}, {"type":
+    "double", "name": "lead_investors_Surge", "required": true}, {"type": "double",
+    "name": "lead_investors_Susquehanna Growth Equity", "required": true}, {"type":
+    "double", "name": "lead_investors_Sutter Hill Ventures", "required": true}, {"type":
+    "double", "name": "lead_investors_Swiss Re", "required": true}, {"type": "double",
+    "name": "lead_investors_TCG", "required": true}, {"type": "double", "name": "lead_investors_TCV",
+    "required": true}, {"type": "double", "name": "lead_investors_TDM Growth Partners",
+    "required": true}, {"type": "double", "name": "lead_investors_THE FUND Limited
+    Partnership", "required": true}, {"type": "double", "name": "lead_investors_TPG",
+    "required": true}, {"type": "double", "name": "lead_investors_Target Global, Valar
+    Ventures", "required": true}, {"type": "double", "name": "lead_investors_Tencent",
+    "required": true}, {"type": "double", "name": "lead_investors_The Carlyle Group",
+    "required": true}, {"type": "double", "name": "lead_investors_The General Partnership",
+    "required": true}, {"type": "double", "name": "lead_investors_The Raine Group",
+    "required": true}, {"type": "double", "name": "lead_investors_The Westly Group",
+    "required": true}, {"type": "double", "name": "lead_investors_Thoma Bravo", "required":
+    true}, {"type": "double", "name": "lead_investors_Tiger Global Management", "required":
+    true}, {"type": "double", "name": "lead_investors_Tiger Global Management, Vitruvian
+    Partners", "required": true}, {"type": "double", "name": "lead_investors_Times
+    Bridge", "required": true}, {"type": "double", "name": "lead_investors_Toloka.vc",
+    "required": true}, {"type": "double", "name": "lead_investors_Tomales Bay Capital,
+    WestCap", "required": true}, {"type": "double", "name": "lead_investors_Translink
+    Capital", "required": true}, {"type": "double", "name": "lead_investors_Tribe
+    Capital", "required": true}, {"type": "double", "name": "lead_investors_Trilantic
+    Capital Partners", "required": true}, {"type": "double", "name": "lead_investors_Trustbridge
+    Partners", "required": true}, {"type": "double", "name": "lead_investors_US Innovative
+    Technology Fund", "required": true}, {"type": "double", "name": "lead_investors_Uber",
+    "required": true}, {"type": "double", "name": "lead_investors_Valar Ventures",
+    "required": true}, {"type": "double", "name": "lead_investors_Vector Capital",
+    "required": true}, {"type": "double", "name": "lead_investors_Verdane", "required":
+    true}, {"type": "double", "name": "lead_investors_Visa", "required": true}, {"type":
+    "double", "name": "lead_investors_Vista Equity Partners", "required": true}, {"type":
+    "double", "name": "lead_investors_Vitruvian Partners", "required": true}, {"type":
+    "double", "name": "lead_investors_Vy Capital", "required": true}, {"type": "double",
+    "name": "lead_investors_Warburg Pincus", "required": true}, {"type": "double",
+    "name": "lead_investors_Wa\u2019ed Ventures", "required": true}, {"type": "double",
+    "name": "lead_investors_WestCap", "required": true}, {"type": "double", "name":
+    "lead_investors_Westpac", "required": true}, {"type": "double", "name": "lead_investors_Wiseanya",
+    "required": true}, {"type": "double", "name": "lead_investors_World Fund", "required":
+    true}, {"type": "double", "name": "lead_investors_Zhongzhi Enterprise Group",
+    "required": true}, {"type": "double", "name": "lead_investors_Zoom", "required":
+    true}, {"type": "double", "name": "lead_investors_e&", "required": true}, {"type":
+    "double", "name": "lead_investors_nan", "required": true}, {"type": "double",
+    "name": "region_Asia", "required": true}, {"type": "double", "name": "region_Europe",
+    "required": true}, {"type": "double", "name": "region_North America", "required":
+    true}, {"type": "double", "name": "region_Oceania", "required": true}, {"type":
+    "double", "name": "region_South America", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-10-16 11:11:32.217958'
