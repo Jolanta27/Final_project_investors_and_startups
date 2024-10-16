@@ -1,17 +1,9 @@
 version: '3.8'
 
 services:
-  mlflow:
-    image: mlflow:latest
+  my_ml_app:
+    image: ${{ secrets.DOCKER_USERNAME }}/my_ml_app:latest
     ports:
-      - "5000:5000"
-    volumes:
-      - ./mlruns:/mlflow/mlruns
-
-  app:
-    build: .
-    command: python train.py
-    volumes:
-      - .:/app
-    depends_on:
-      - mlflow
+      - "4000:80"
+    environment:
+      - ENV_VAR=example
