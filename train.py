@@ -151,4 +151,3 @@ print("Top 20 Positive Impact Investors:")
 print(sorted_coefficients.head(20))
 print("\nTop 20 Negative Impact Investors:")
 print(sorted_coefficients.tail(20))
-
