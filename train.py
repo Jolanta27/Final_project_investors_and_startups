@@ -12,6 +12,7 @@ import mlflow.sklearn
 from mlflow.models.signature import infer_signature
 import plotly.express as px
 import plotly.graph_objects as go
+import os
 
 df = pd.read_csv("emergingunicorn_companies.csv")
 df = df.drop(columns=['Unnamed: 0', 'company_link', 'img_src'])
@@ -142,8 +143,10 @@ with mlflow.start_run(run_name="Gradient Boosting Regressor (Tuned)") as run:
 model_uri = f"runs:/{tuned_gb_run_id}/model"
 loaded_gradient_br_model = mlflow.sklearn.load_model(model_uri)
 
-
 print(f"Loaded model from run ID: {tuned_gb_run_id}")
+
+artifact_path = os.path.join(os.getcwd(), "mlruns")
+mlflow.log_artifacts(artifact_path)
 
 coefficients = pd.DataFrame(LinearRegression().fit(X_train, y_train).coef_, X.columns, columns=['Coefficients'])
 sorted_coefficients = coefficients.sort_values(by='Coefficients', ascending=False)
