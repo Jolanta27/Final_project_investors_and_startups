@@ -145,9 +145,6 @@ loaded_gradient_br_model = mlflow.sklearn.load_model(model_uri)
 
 print(f"Loaded model from run ID: {tuned_gb_run_id}")
 
-artifact_path = os.path.join(os.getcwd(), "mlruns")
-mlflow.log_artifacts(artifact_path)
-
 coefficients = pd.DataFrame(LinearRegression().fit(X_train, y_train).coef_, X.columns, columns=['Coefficients'])
 sorted_coefficients = coefficients.sort_values(by='Coefficients', ascending=False)
 print("Top 20 Positive Impact Investors:")
